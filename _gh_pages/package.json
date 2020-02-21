@@ -1,0 +1,22 @@
+{
+  "name": "book-ui-new",
+  "version": "1.0.0",
+  "description": "Una bellissima interfaccia ",
+  "main": "index.js",
+  "scripts": {
+    "site": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidedantonio/books-ui.git"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "Davide D'Antonio <davide.dantonio@webeetle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidedantonio/books-ui/issues"
+  },
+  "homepage": "https://github.com/davidedantonio/books-ui#readme"
+}

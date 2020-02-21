@@ -1,0 +1,35 @@
+<div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bookModalLabel">Libro</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <form>
+                <div class="form-group">
+                  <label for="bookTitle">Titolo</label>
+                  <input type="text" class="form-control" id="bookTitle" aria-describedby="bookTitle">
+                  <small class="form-text text-muted">Inserire il titolo del tuo libro qui.</small>
+                </div>
+                <div class="form-group">
+                  <label for="bookPrice">Prezzo</label>
+                  <input type="text" class="form-control" id="bookPrice">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Annulla</button>
+        <button type="button" class="btn btn-primary">Salva</button>
+      </div>
+    </div>
+  </div>
+</div>
